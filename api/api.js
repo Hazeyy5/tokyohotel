@@ -108,11 +108,3 @@ app.delete('/api/hotels/:id', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Serveur en cours d\'exécution sur http://localhost:${PORT}`);
 });
-
-import HotelManagement from "./components/HotelManagement";
-
-function App() {
-  return <HotelManagement />;
-}
-
-export default App;
